@@ -59,7 +59,7 @@ def main():
         while True:
             print('===Welcome To The Library===')
             print("1) Add books")
-            print("2) Borrow books")
+            print("2) Borrow book")
             print("3) Return books")
             print("4) View books")
             print("5) Exit Library")
