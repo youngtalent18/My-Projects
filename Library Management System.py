@@ -18,17 +18,17 @@ class Library:
     def add_book(self, title,author):
         book = Book(title, author)
         self.books.append(book)
-        print(f"{title} has been added to the library")
+        print(f"{book.title} has been added to the library")
 
 
     def borrow_book(self,title):
         for book in self.books:
             if book.title.lower() == title.lower():
                 if book.is_borrowed:
-                    print(f'{title} has been borrowed')
+                    print(f'{book.title} has been borrowed')
                 else:
                     book.is_borrowed = True
-                    print(f'You just borrowed {title}')
+                    print(f'You just borrowed {book.title}')
                 return
         print(f'{title} cannot be found')
 
