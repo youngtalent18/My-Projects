@@ -22,7 +22,7 @@
 
 ## 📫 How to reach me
 
-Feel free to connect or collaborate! (stephenanti63@gmail.com)
+Feel free to connect or collaborate! (stephenanti18@hotmail.com)
 
 ---
 
